@@ -21,3 +21,16 @@ if b > a:
 if a == b:
     print('Os números são iguais!')
 ```
+
+[program_4.2.py](chapter_04_conditions/4.1_if/program_4.2.py)
+
+```python
+# Programa 4.2 - Carro novo ou velho, dependendo da idade
+
+idade = int(input('Digite a idade do seu carro: '))
+
+if idade <= 3:
+    print('Seu carro é novo')
+if idade > 3:
+    print('Seu carro é velho')
+```
